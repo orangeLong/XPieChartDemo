@@ -13,7 +13,7 @@
 		795DD6191D5ACE520013756A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795DD6171D5ACE520013756A /* Main.storyboard */; };
 		795DD61B1D5ACE520013756A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 795DD61A1D5ACE520013756A /* Assets.xcassets */; };
 		795DD61E1D5ACE520013756A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795DD61C1D5ACE520013756A /* LaunchScreen.storyboard */; };
-		795DD6281D5ACEB70013756A /* XPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 795DD6271D5ACEB70013756A /* XPieChart.m */; settings = {ASSET_TAGS = (); }; };
+		795DD62C1D5B198F0013756A /* XPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 795DD62B1D5B198F0013756A /* XPieChart.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		795DD61A1D5ACE520013756A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		795DD61D1D5ACE520013756A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		795DD61F1D5ACE520013756A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		795DD6261D5ACEB70013756A /* XPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPieChart.h; sourceTree = "<group>"; };
-		795DD6271D5ACEB70013756A /* XPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPieChart.m; sourceTree = "<group>"; };
+		795DD62A1D5B198F0013756A /* XPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPieChart.h; sourceTree = "<group>"; };
+		795DD62B1D5B198F0013756A /* XPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPieChart.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +45,7 @@
 		795DD6021D5ACE520013756A = {
 			isa = PBXGroup;
 			children = (
+				795DD6291D5B198F0013756A /* XPieChart */,
 				795DD60D1D5ACE520013756A /* XPieChartDem */,
 				795DD60C1D5ACE520013756A /* Products */,
 			);
@@ -65,7 +66,6 @@
 				795DD6121D5ACE520013756A /* AppDelegate.m */,
 				795DD6141D5ACE520013756A /* ViewController.h */,
 				795DD6151D5ACE520013756A /* ViewController.m */,
-				795DD6251D5ACEB70013756A /* XPieChart */,
 				795DD6171D5ACE520013756A /* Main.storyboard */,
 				795DD61A1D5ACE520013756A /* Assets.xcassets */,
 				795DD61C1D5ACE520013756A /* LaunchScreen.storyboard */,
@@ -83,11 +83,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		795DD6251D5ACEB70013756A /* XPieChart */ = {
+		795DD6291D5B198F0013756A /* XPieChart */ = {
 			isa = PBXGroup;
 			children = (
-				795DD6261D5ACEB70013756A /* XPieChart.h */,
-				795DD6271D5ACEB70013756A /* XPieChart.m */,
+				795DD62A1D5B198F0013756A /* XPieChart.h */,
+				795DD62B1D5B198F0013756A /* XPieChart.m */,
 			);
 			path = XPieChart;
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 			files = (
 				795DD6161D5ACE520013756A /* ViewController.m in Sources */,
 				795DD6131D5ACE520013756A /* AppDelegate.m in Sources */,
-				795DD6281D5ACEB70013756A /* XPieChart.m in Sources */,
+				795DD62C1D5B198F0013756A /* XPieChart.m in Sources */,
 				795DD6101D5ACE520013756A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
